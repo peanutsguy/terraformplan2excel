@@ -1,0 +1,2 @@
+python_terraform==0.10.1
+XlsxWriter==3.1.0
