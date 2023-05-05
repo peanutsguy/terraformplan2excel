@@ -11,7 +11,7 @@ First of all, since my customer was using Azure as the Terraform backend and dep
 Since it was mainly backend and provider, what I had to override, I named my file `backend_override.tf`, which I placed in the same folder where the rest of my Terraform scripts were.
 
 The file ended looking something like this:
-```json
+```
 terraform {
   backend "local" {
     path = "./.local-state"
